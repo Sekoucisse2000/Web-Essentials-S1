@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(255, 99, 71);
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  text-transform: uppercase; /* Titels in hoofdletters */
+  font-size: 3rem; /* hoofdtitel is 3 keer zo groot als de standaard tekstgrootte*/
+}
+
+h2 {
+  font-weight: normal; /* Zorg ervoor dat h2's niet vet zijn. */
+  text-transform: uppercase; /* Titels in hoofdletters */
+}
+
+p {
+  line-height: 2;
+}
+.navigatie {
+  background: #231f20;
+  letter-spacing: 0.1em;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 20px;
+}
+
+.current {
+  color: #dadcde;
+  background: rgba(69, 67, 67, 0.4);
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background: #222222;
+  color: white;
+}
+
+ol,
+li {
+  line-height: 1.5;
+}
+
+.quote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: white;
+  color: rgb(255, 99, 71);
+  text-align: center;
+}
+
+.speciaal {
+  background-color: #222222;
+  color: #ffd602;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tekst-schaduw</title>
+  </head>
+  <style>
+    body {
+      font-family: Georgia;
+    }
+    .v1 {
+      text-align: center;
+      text-transform: uppercase;
+      background-color: white;
+      font-size: 100px;
+      color: white;
+      text-shadow: 3px 3px 5px rgba(0, 0, 0.5);
+    }
+
+    .v2 {
+      text-align: center;
+      text-transform: uppercase;
+      background-color: black;
+      font-size: 100px;
+      color: transparent;
+      text-shadow: 0 0 5px white;
+      padding: 15px;
+    }
+    .v3 {
+      background-color: white;
+      color: black;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 100px;
+      text-shadow: -50px -30px 2px red;
+    }
+  </style>
+
+  <body>
+    <h1 class="v1">cool effects</h1>
+    <h1 class="v2">cool effects</h1>
+    <h1 class="v3">cool effects</h1>
+  </body>
+</html>
