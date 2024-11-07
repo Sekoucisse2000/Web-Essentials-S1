@@ -1,45 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Boxmodel</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boxmodel</title>
+    <style>
+      .box {
+        background: lightgrey;
+      }
+    </style>
+  </head>
   <style>
+    div {
+      background: lightgray;
+      width: 30%;
+      color: black;
+      margin: 10px;
+    }
+
+    .box1 {
+      border-style: dotted;
+      padding: 20px;
+      height: auto;
+    }
+    .box2 {
+      background-color: violet;
+      border-left: 5px solid black;
+      padding: 20px 0 0 0;
+      height: auto;
+    }
+    .box3 {
+      padding: 5px 0 0 0;
+      line-height: 2;
+    }
+    .box span {
+      background-color: orange;
+      padding: 10px;
+    }
+    .box4 {
+      overflow-y: scroll;
+      padding: 5px;
+    }
+
     .box {
-      background: lightgrey;
+      display: flex;
+      align-items: center;
+    }
+    .box img {
+      width: 100px;
+      height: auto;
+      margin-right: 15px;
     }
   </style>
-</head>
 
-<body>
+  <body>
+    <div class="box box1">
+      <p>Now this looks like a job for me</p>
+    </div>
+    <div class="box box2">
+      <p>So everybody, just <span>follow</span> me</p>
+    </div>
+    <div class="box box3">
+      <p>
+        Cause we need a little, <span>controversy</span><br />
+        Cause it feels so empty, without me
+      </p>
+    </div>
 
-
-  <div class="box box1">
-    <p>Now this looks like a job for me</p>
-  </div>
-  <div class="box box2">
-    <p>
-      So everybody, just <span>follow</span> me
-    </p>
-  </div>
-  <div class="box box3">
-    <p>
-      Cause we need a little, <span>controversy</span><br>
-      Cause it feels so empty, without me
-    </p>
-  </div>
-
-  <div class="box box4">
-    <p>I said this looks like a job for me<br> so everybody just follow me
-      <br>
-      'Cause we need a little controversy<br>
-      'Cause it feels so empty without me
-    </p>
-  </div>
-  <div class="box"><img class="minecraft" src="../WC3 - oefenbestanden/images/minecraft_m.png" alt="minecraft"
-      width="500" height="500"> Een afbeelding in een paragraaf</div>
-
-</body>
-
+    <div class="box box4">
+      <p>
+        I said this looks like a job for me<br />
+        so everybody just follow me
+        <br />
+        'Cause we need a little controversy<br />
+        'Cause it feels so empty without me
+      </p>
+    </div>
+    <div class="box">
+      <img
+        class="minecraft"
+        src="images/minecraft_m.png"
+        alt="minecraft"
+        width="500"
+        height="500"
+      />
+      Een afbeelding in een paragraaf
+    </div>
+  </body>
 </html>

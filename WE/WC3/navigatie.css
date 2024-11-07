@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  width: 14rem;
+  padding: 0;
+  margin: 1px;
+  border: 2px solid black;
+  background-color: black;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 14rem;
+}
+
+.nav a {
+  background-color: orange;
+  color: black;
+  display: block;
+  margin: 2px;
+  padding: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+.home {
+  background-image: url(icons/home.svg);
+  background-position: 20%;
+  background-repeat: no-repeat;
+}
+.home:hover {
+  background-image: url(icons/home_hover.svg);
+}
+.blog {
+  background-image: url(icons/blog.svg);
+  background-repeat: no-repeat;
+  background-position: 20%;
+}
+.blog:hover {
+  background-image: url(icons/blog_over.svg);
+}

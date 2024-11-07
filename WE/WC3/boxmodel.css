@@ -1,0 +1,20 @@
+body {
+  background: black;
+  color: white;
+}
+blockquote {
+  background-color: #143843;
+  width: 50%;
+  border: 5px solid white;
+  padding: 20px;
+}
+
+.two {
+  margin: 20px auto 20px auto;
+}
+.three {
+  margin: 20px 20px 20px auto;
+}
+h1 {
+  margin-bottom: 30px;
+}
