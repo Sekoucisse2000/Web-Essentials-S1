@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabel-receipt</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(215, 154, 154);
+      font-family: Arial, Helvetica, sans-serif;
+      height: 10vh;
+    }
+    h2 {
+      text-align: center;
+    }
+
+    .one {
+      padding: 15px;
+      background-color: white;
+      border-radius: 5px;
+      margin: 10px auto 0 auto;
+      width: 40%;
+    }
+
+    .head {
+      padding: 10px;
+      text-align: left;
+      width: 100%;
+    }
+    .body1 {
+      padding: 10px;
+      text-align: left;
+    }
+    .body2 {
+      padding: 10px;
+      text-align: left;
+    }
+    .body3 {
+      padding: 10px;
+      text-align: left;
+    }
+    tfoot {
+      color: green;
+      text-align: right;
+    }
+    .foot {
+      padding: 10px;
+      text-align: right;
+    }
+  </style>
+  <body>
+    <h2>Invoice Tabel-receipts</h2>
+    <table class="one">
+      <thead>
+        <tr class="head">
+          <th>Product</th>
+          <th>QTY</th>
+          <th>PRICE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="body1">
+          <th>Dirnk (larges)</th>
+          <td>1</td>
+          <td>2.90</td>
+        </tr>
+        <tr class="body2">
+          <th>Fries (smaal)</th>
+          <td>2</td>
+          <td>5.00</td>
+        </tr>
+        <tr class="body3">
+          <th>Burger (no pckle)</th>
+          <td>2</td>
+          <td>7.00</td>
+        </tr>
+      </tbody>
+      <hr />
+      <tfoot>
+        <tr class="foot">
+          <th>Total:</th>
+          <td>14.60</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
