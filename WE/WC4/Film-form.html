@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film-formulier</title>
+    <link rel="stylesheet" href="Film-form.css" />
+  </head>
+  <body>
+    <div class="contenaire">
+      <div class="wrap">
+        <form action="https://www.w3schools.com/action_page.php" method="POST">
+          <h2>Film Toevoegen</h2>
+          <div class="box-titel">
+            <label for="text">Film Titel:</label>
+            <input type="text" id="film title" name="fil title" />
+            <label for="text">Registreer:</label>
+            <input type="text" id="registreer" name="registreer" />
+            <label for="text">Jaar van uitgave:</label>
+            <input type="text" id="uitgave" name="jaar van uitgave" />
+
+            <label for="film title">Genge:</label>
+            <select name="Kies een titel" id="films" multiple size="4">
+              <option value="actie">Actie</option>
+              <option value="drama">Drama</option>
+              <option value="komedie">Komedie</option>
+              <option value="horror">Horror</option></select
+            ><br />
+            <br />
+            <label for="text">Beschrijving:</label>
+            <textarea
+              name="comments"
+              id="comments"
+              cols="30"
+              rows="4"
+            ></textarea>
+            <br />
+            <fieldset>
+              <legend>Beoordeling:</legend>
+              <input type="radio" name="een" value="1" />
+              <label for="een">1</label>
+              <input type="radio" name="twee" value="2" />
+              <label for="twee">2</label>
+              <input type="radio" name="drie" value="3" />
+              <label for="drie">3</label>
+              <input type="radio" name="vier" value="4" />
+              <label for="vier">4</label>
+            </fieldset>
+            <button type="submit">Opslaan</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

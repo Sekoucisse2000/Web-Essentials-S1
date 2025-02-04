@@ -1,28 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabel Openingsuren</title>
+  </head>
+  <style>
+    h2 {
+      font-size: 2rem;
+      color: #708090;
+      margin-bottom: 20px;
+    }
+    table,
+    th,
+    td,
+    tr {
+      padding: 20px;
+      width: 150px;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabel Openingsuren</title>
-</head>
+    td {
+      color: white;
+      font-weight: bold;
+      background-color: rgb(111, 159, 205);
+      text-align: center;
+    }
+    caption {
+      font-weight: 14px;
+      padding: 20px;
+      caption-side: bottom;
+    }
+  </style>
+  <body>
+    <h2>TABEL OPENINGSUREN</h2>
+    <table>
+      <caption>
+        Openingsuren Postkantoor
+      </caption>
+      <thead>
+        <tr>
+          <th></th>
+          <th colspan="2">Openingsuren</th>
+        </tr>
+      </thead>
 
-<body>
-
-  TABEL OPENINGSUREN
-
-  Openingsuren
-  Maandag 10-12 14-16
-  Dinsdag gesloten 14-16
-  Woensdag 9-18
-  Donderdag gesloten 14-20
-  Vrijdag 10-12 gesloten
-  Zaterdag gesloten
-  zondag
-  Openingsuren Postkantoor
-
-
-</body>
-
+      <tbody>
+        <tr>
+          <th>Maandag</th>
+          <td>10-12</td>
+          <td>14-16</td>
+        </tr>
+        <tr>
+          <th>Dinsdag</th>
+          <td>gesloten</td>
+          <td>14-16</td>
+        </tr>
+        <tr>
+          <th>Woensdag</th>
+          <td colspan="2">9-18</td>
+        </tr>
+        <tr>
+          <th>Donderdag</th>
+          <td>gesloten</td>
+          <td>14-20</td>
+        </tr>
+        <tr>
+          <th>Vrijdag</th>
+          <td>10-12</td>
+          <td>gesloten</td>
+        </tr>
+        <tr>
+          <th>Zaterdag</th>
+          <td colspan="2">gesloten</td>
+        </tr>
+        <tr>
+          <th>Zondag</th>
+          <td colspan="2">gesloten</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>

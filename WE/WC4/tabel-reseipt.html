@@ -7,79 +7,84 @@
   </head>
   <style>
     body {
-      background-color: rgb(215, 154, 154);
+      background-color: coral;
       font-family: Arial, Helvetica, sans-serif;
-      height: 10vh;
+      text-align: center;
+      font-weight: bold;
     }
     h2 {
-      text-align: center;
+      color: white;
+      font-weight: bold;
+      font-size: 50px;
     }
-
-    .one {
-      padding: 15px;
-      background-color: white;
+    table {
+      /* border-collapse: collapse; */
       border-radius: 5px;
-      margin: 10px auto 0 auto;
-      width: 40%;
+      margin: 0 auto 0 auto;
+      background-color: white;
+      padding: 8px;
+      width: 90%;
+      max-width: 600px;
+      text-shadow: black rgba(0, 0, 0 5);
     }
-
-    .head {
-      padding: 10px;
-      text-align: left;
-      width: 100%;
+    .one {
+      font-size: 15px;
+      text-align: right;
+      font-weight: normal;
     }
-    .body1 {
-      padding: 10px;
+    thead th {
+      color: grey;
       text-align: left;
+      padding: 8px;
+      border-bottom: 1px solid #4a4747;
     }
-    .body2 {
-      padding: 10px;
+    tbody td {
       text-align: left;
-    }
-    .body3 {
-      padding: 10px;
-      text-align: left;
+      padding: 8px 0;
     }
     tfoot {
       color: green;
-      text-align: right;
     }
-    .foot {
-      padding: 10px;
-      text-align: right;
+    tfoot td {
+      color: green;
+      text-align: left;
+    }
+    .dashed-line {
+      border-top: 2px solid gray;
+      margin: 10px 0;
     }
   </style>
   <body>
     <h2>Invoice Tabel-receipts</h2>
-    <table class="one">
+    <table class="tabel">
       <thead>
-        <tr class="head">
+        <tr>
           <th>Product</th>
           <th>QTY</th>
           <th>PRICE</th>
         </tr>
       </thead>
       <tbody>
-        <tr class="body1">
-          <th>Dirnk (larges)</th>
+        <tr>
+          <td>Dirnk <span class="one">(larges)</span></td>
           <td>1</td>
           <td>2.90</td>
         </tr>
-        <tr class="body2">
-          <th>Fries (smaal)</th>
+        <tr>
+          <td>Fries <span class="one">(smaal)</span></td>
           <td>2</td>
           <td>5.00</td>
         </tr>
-        <tr class="body3">
-          <th>Burger (no pckle)</th>
+        <tr>
+          <td>Burger <span class="one">(no pckle)</span></td>
           <td>2</td>
           <td>7.00</td>
         </tr>
       </tbody>
-      <hr />
+
       <tfoot>
-        <tr class="foot">
-          <th>Total:</th>
+        <tr>
+          <th colspan="2">Total:</th>
           <td>14.60</td>
         </tr>
       </tfoot>

@@ -1,0 +1,76 @@
+body {
+  background-color: greenyellow;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-wrap {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px 20px;
+  width: 80%;
+  max-width: 300px;
+  height: 400px;
+  text-align: center;
+}
+input {
+  padding: 5px;
+  border-radius: 2px;
+}
+
+h2 {
+  font-size: 30px;
+  color: black;
+  border-bottom: 10px;
+}
+p {
+  font-weight: bold;
+}
+.login_user label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.login-wrap input {
+  margin-bottom: 20px;
+}
+.password_login label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.password_login input {
+  margin-bottom: 20px;
+}
+.btn {
+  width: 60%;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: blue;
+  border-radius: 10px solid white;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.btn1 {
+  width: 60%;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: white;
+  color: blue;
+}
+.btn1:hover {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: Georgia;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: rgb(0, 0, 0);
+}
+ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  padding: 0;
+}
+li {
+  list-style: none;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+a {
+  display: block;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: #ececec;
+  color: black;
+}
+.one {
+  margin-right: auto;
+}
